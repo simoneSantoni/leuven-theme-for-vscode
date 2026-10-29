@@ -1,0 +1,34 @@
+{
+  "name": "leuven-for-vscode",
+  "displayName": "Leuven",
+  "description": "Fabrice Niessen's Emacs themes leuven and leuven-dark, ported to VS Code",
+  "version": "0.1.0",
+  "publisher": "simonesantoni",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "leuven",
+    "emacs",
+    "light",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Leuven",
+        "uiTheme": "vs",
+        "path": "./themes/leuven-color-theme.json"
+      },
+      {
+        "label": "Leuven Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/leuven-dark-color-theme.json"
+      }
+    ]
+  }
+}
