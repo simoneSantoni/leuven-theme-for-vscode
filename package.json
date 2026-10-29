@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "publisher": "simonesantoni",
   "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simoneSantoni/leuven-theme-for-vscode.git"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
